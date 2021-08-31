@@ -11,5 +11,10 @@ namespace garys_garage
         {
 
         }
+
+        public override void Drive()
+        {
+            Console.WriteLine($"The {MainColor} Ram just ran over you {MaxiumOccupancey} people in it. Ouch!");
+        }
     }
 }
