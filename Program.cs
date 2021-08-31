@@ -9,9 +9,16 @@ namespace garys_garage
         {
             Zero fxs = new Zero();
             Zero fx = new Zero();
-            Tesla Mine = new Tesla();
+            Tesla mine = new Tesla();
+            Cessna c3 = new Cessna();
             List<Zero> electricVehicles = new List<Zero>() { fx , fxs};
-            
+
+            fxs.Drive();
+            fx.Drive();
+            mine.Drive();
+            c3.Drive();
+
+
         }
 
     }
