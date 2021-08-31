@@ -10,5 +10,10 @@ namespace garys_garage
         {
 
         }
+
+        public override void Drive()
+        {
+            Console.WriteLine($"The {MainColor} Tesa blazed right by you {MaxiumOccupancey} people in it.Zip a de do dah");
+        }
     }
 }

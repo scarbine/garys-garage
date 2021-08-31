@@ -14,7 +14,7 @@ namespace garys_garage
 
        public override void Drive()
        {
-           Console.WriteLine("Zooooooooom!");
+           Console.WriteLine($"The {MainColor} Cessna zips by you {MaxiumOccupancey} people in it. Zooooooooom!");
        }
     }
 }

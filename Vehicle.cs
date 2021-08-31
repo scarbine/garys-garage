@@ -7,6 +7,8 @@ namespace garys_garage
         public string MainColor { get; set; }
         public int MaxiumOccupancey { get; set; }
 
+       
+
 
         public virtual void Drive()
         {
