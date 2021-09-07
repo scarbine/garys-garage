@@ -2,9 +2,11 @@ using System;
 
 namespace garys_garage.Vehicle
 {
-    public class Cessna : isGas
+    public class Cessna : Vehicle , isGas
     {
-        public double FuelCapacity {get; set;}
+        public double FuelCapacity { get; set; }
+
+        public int CurrentTankPercentage { get; set; }
 
 
         public void ChargeBattery()
@@ -12,9 +14,9 @@ namespace garys_garage.Vehicle
 
         }
 
-       public void Drive()
-       {
-           Console.WriteLine($"The {MainColor} Cessna zips by you {MaxiumOccupancey} people in it. Zooooooooom!");
-       }
+        public override void Drive()
+        {
+            Console.WriteLine($"The {MainColor} Cessna zips by you {MaxiumOccupancey} people in it. Zooooooooom!");
+        }
     }
 }

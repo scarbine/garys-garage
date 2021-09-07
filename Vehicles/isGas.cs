@@ -11,7 +11,7 @@ namespace garys_garage.Vehicle
 
         public void RefuelTank()
         {
-
+            CurrentTankPercentage = 100;
         }
     }
 }

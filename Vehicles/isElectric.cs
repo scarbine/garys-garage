@@ -10,7 +10,8 @@ namespace garys_garage.Vehicle
 
         public void ChargeBattery()
         {
-
+            CurrentChargePercentage = 100;
+            
         }
     }
 }

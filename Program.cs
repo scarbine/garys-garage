@@ -33,6 +33,7 @@ namespace garys_garage
             foreach (isElectric ev in electricVehicles)
             {
                 Console.WriteLine($"{ev.CurrentChargePercentage}");
+                
             }
 
             /***********************************************/
