@@ -14,23 +14,23 @@ namespace garys_garage
 
 
 
-            List <???> electricVehicles = new List<???> () {
+            List <isElectric> electricVehicles = new List<isElectric> () {
                 fx, fxs, modelS
               };
 
             Console.WriteLine("Electric Vehicles");
-            foreach (??? ev in electricVehicles)
+            foreach (isElectric ev in electricVehicles)
             {
                 Console.WriteLine($"{ev.CurrentChargePercentage}");
             }
 
-            foreach (??? ev in electricVehicles)
+            foreach (isElectric ev in electricVehicles)
             {
                 // This should charge the vehicle to 100%
                 ev.ChargeBattery();
             }
 
-            foreach (??? ev in electricVehicles)
+            foreach (isElectric ev in electricVehicles)
             {
                 Console.WriteLine($"{ev.CurrentChargePercentage}");
             }
@@ -40,23 +40,23 @@ namespace garys_garage
             Ram ram = new Ram();
             Cessna cessna150 = new Cessna();
 
-            List <???> gasVehicles = new List<???> () {
+            List <isGas> gasVehicles = new List<isGas> () {
                 ram, cessna150
               };
 
             Console.WriteLine("Gas Vehicles");
-            foreach (??? gv in gasVehicles)
+            foreach (isGas gv in gasVehicles)
             {
                 Console.WriteLine($"{gv.CurrentTankPercentage}");
             }
 
-            foreach (??? gv in gasVehicles)
+            foreach (isGas gv in gasVehicles)
             {
                 // This should completely refuel the gas tank
                 gv.RefuelTank();
             }
 
-            foreach (??? gv in gasVehicles)
+            foreach (isGas gv in gasVehicles)
             {
                 Console.WriteLine($"{gv.CurrentTankPercentage}");
             }

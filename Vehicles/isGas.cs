@@ -6,6 +6,8 @@ namespace garys_garage.Vehicle
     {
         public double FuelCapacity { get; set; }
 
+        public int CurrentTankPercentage {get; set;}
+
 
         public void RefuelTank()
         {

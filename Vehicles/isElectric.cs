@@ -6,6 +6,8 @@ namespace garys_garage.Vehicle
     {
         public double BatteryKwh { get; set; }
 
+        public int CurrentChargePercentage { get; set;}
+
         public void ChargeBattery()
         {
 
