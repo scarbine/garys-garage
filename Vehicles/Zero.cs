@@ -6,10 +6,10 @@ namespace garys_garage.Vehicle
     {
         public double BatteryKwh { get; set; }
 
-        public int CurrentChargePercentage { get; set; }
+        public int CurrentChargePercentage { get; set; } = 50;
         public void ChargeBattery()
         {
-
+            CurrentChargePercentage = 100;
         }
 
         public override void Drive()
